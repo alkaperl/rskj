@@ -35,6 +35,7 @@ import java.util.stream.Collectors;
 public class BridgeDevNetConstants extends BridgeConstants {
     private static BridgeDevNetConstants instance = new BridgeDevNetConstants();
 
+
     BridgeDevNetConstants() {
         btcParamsString = NetworkParameters.ID_TESTNET;
 

@@ -24,7 +24,6 @@ import org.ethereum.config.blockchain.testnet.TestNetAfterBridgeSyncConfig;
 import org.ethereum.config.blockchain.testnet.TestNetBeforeBridgeSyncConfig;
 
 public class TestNetConfig extends AbstractNetConfig {
-    public static final TestNetConfig INSTANCE = new TestNetConfig();
 
     public TestNetConfig() {
         add(0, new TestNetBeforeBridgeSyncConfig());
